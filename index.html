@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Momentum App</title>
+</head>
+<body>
+    <!--로그인-->
+    <form class="hidden" id="login-form">
+    <!--input 태그의 placeholder 속성: 입력 필드에 사용자가 적절한 값을 입력하도록 도와줌-->
+        <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="What is your name?"
+        />
+        <input type="submit" value="Log In"/>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <script src="app.js"></script>
+</body>
+</html>
