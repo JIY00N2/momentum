@@ -7,3 +7,6 @@ Login Section
 Clock Section
 ### 2023.03.06
 Random Quotes Section
+
+### 2023.03.06
+Random Background Section
