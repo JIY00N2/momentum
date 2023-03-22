@@ -20,3 +20,21 @@ calc(3, 4);
 ### 5. parseInt() - 문자열을 정수형으로 변환
 
 ### 6. 함수의 실행 순서는 안 -> 밖
+
+### 2023.03.22 Review
+
+### Q1: Why do we use ‘arguments’ on functions?
+
+### A: To send a value to a function
+
+### Q2: Functions always have to receive arguments.
+
+### A: No
+
+### Q3: Why do we use ‘return’ on functions?
+
+### A: To get a value from a function
+
+### Q4: ‘return’ is the same as ‘console.log’
+
+### A: No
