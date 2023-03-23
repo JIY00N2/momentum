@@ -64,3 +64,32 @@ title.addEventListener("click", handleTitleClick);
 ```
 
 ### 10. body, head, title등은 document 사용 가능하지만 div등과 같은 나머지 element들은 querySelector나 getElementById로 불러옴
+
+### 2023.03.23 Review
+
+```javascript
+const title = document.querySelector("h2");
+const superEventHandler = {
+  over: function () {
+    title.innerText = "The mouse is here!";
+    title.style.color = colors[0];
+  },
+  out: function () {
+    title.innerText = "The mouse is gone!";
+    title.style.color = colors[1];
+  },
+  resize: function () {
+    title.innerText = "You just resized!";
+    title.style.color = colors[2];
+  },
+  rclick: function () {
+    title.innerText = "That was a right click!";
+    title.style.color = colors[4];
+  },
+};
+// 마우스가 h2위에 올라갔을때, 내려갔을때, 화면 크기 조정할때, 우클릭할때
+title.addEventListener("mouseover", superEventHandler.over);
+title.addEventListener("mouseout", superEventHandler.out);
+window.addEventListener("resize", superEventHandler.resize);
+window.addEventListener("contextmenu", superEventHandler.rclick);
+```
