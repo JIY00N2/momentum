@@ -25,3 +25,27 @@ function handleTitleClick() {
 ### 4. class는 css파일에 .으로 표헌, id는 #으로 표현
 
 ### 5. className -> classList -> toggle
+
+### 2023.03.24 Review
+
+```javascript
+const body = document.querySelector("body");
+const h1 = document.querySelector("h1");
+h1.style.color = "#ffffff";
+body.style.backgroundColor = "#0099ff";
+
+function handleWindowSize() {
+  const currentSize = window.innerWidth;
+  const currentColor = body.style.backgroundColor;
+  let newColor;
+  if (currentSize < 1200 && currentSize >= 800) {
+    newColor = "#1abc9c";
+  } else if (currentSize < 800 && currentSize >= 400) {
+    newColor = "#fff200";
+  } else {
+    newColor = "#9b59b6";
+  }
+  body.style.backgroundColor = newColor;
+}
+window.addEventListener("resize", handleWindowSize);
+```
