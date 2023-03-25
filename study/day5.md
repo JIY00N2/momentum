@@ -26,6 +26,11 @@ function handleTitleClick() {
 
 ### 5. className -> classList -> toggle
 
+1. className - 이전의 class들은 상관하지 않고 모든걸 교체
+2. classList - 이전의 class들을 교체하지 않음
+   (contains, add, remove...등의 함수)
+3. toggle - className이 존재하는지 확인하고 만약 존재한다면 className을 제거, 존재하지 않으면 추가
+
 ### 2023.03.24 Review
 
 ```javascript
