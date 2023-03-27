@@ -111,3 +111,74 @@ if (savedUsername === null) {
 ```
 
 ### 8. 반복되는 기능은 함수로 처리해주자
+
+### 2023.03.28 review
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Random Number Game</h1>
+
+    <h2 style="display: inline;">Generate a number between 0 and</h2>
+    <input style="display: inline;" id="range-number" type="number" min="0" />
+
+    <div id="user">
+      <h3 style="display: inline;">Guess the number:</h3>
+      <form style="display: inline;">
+        <input type="number" />
+        <button>Play!</button>
+      </form>
+    </div>
+
+    <div id="result">
+      <span></span><br />
+      <span></span>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
+```
+
+```javascript
+// rangeNumber = 20 , userNumber = 17
+// play를 누를떄마다 0~20까지의 랜덤 숫자 발생
+// You chose: 17, the machine chose: 랜덤.
+// userNumber === 랜덤 You won! else You lost!
+const rangeNumber = document.querySelector("#range-number");
+const userNumber = document.querySelector("#user input");
+const playButton = document.querySelector("#user button");
+const caseResult = document.querySelector("#result span:first-child");
+const result = document.querySelector("#result span:last-child");
+
+function btnPlay(event) {
+  event.preventDefault();
+  const userRandomNumber = userNumber.value; // 17저장 (문자열임)
+  const maxNumber = rangeNumber.value; // 20 까지
+  const randomComputerNumber = Math.floor(Math.random() * maxNumber + 1);
+  paintResult(userRandomNumber, randomComputerNumber);
+}
+
+function paintResult(usernum, randomnum) {
+  caseResult.innerText = `You chose: ${usernum}, the machine chose: ${randomnum}`;
+  if (parseInt(usernum) === randomnum) {
+    result.innerText = "You won!";
+  } else if (usernum === "") {
+    caseResult.innerText = "Please enter a number!";
+    result.innerText = "";
+  } else if (parseInt(usernum) > randomnum || parseInt(usernum) < 0) {
+    caseResult.innerText = "Please enter a number within the range!";
+    result.innerText = "";
+  } else {
+    result.innerText = "You lost!";
+  }
+}
+
+playButton.addEventListener("click", btnPlay);
+```
