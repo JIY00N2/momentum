@@ -64,3 +64,43 @@ function sayHello() {
 sayHello();
 setInterval(sayHello, 1000);
 ```
+
+### 2023.03.29 review
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Time Until Christmas Eve<</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>Time Until Christmas Eve</h1>
+    <h2 class="js-clock"></h2>
+    <script src="src/index.js"></script>
+  </body>
+</html>
+```
+
+```javascript
+const clockTitle = document.querySelector(".js-clock");
+
+function calcChirstmasDay() {
+  const today = new Date();
+  const christmasDay = new Date("2023-08-25");
+  const dDate = christmasDay - today;
+  const dDays = Math.floor(dDate / (24 * 60 * 60 * 1000));
+  const dHours = String(Math.floor((dDate / (60 * 60 * 1000)) % 24)).padStart(
+    2,
+    "0"
+  );
+  const dMinutes = String(Math.floor((dDate / (60 * 1000)) % 60)).padStart(
+    2,
+    "0"
+  );
+  const dSeconds = String(Math.floor((dDate / 1000) % 60)).padStart(2, "0");
+  clockTitle.innerText = `${dDays}d ${dHours}h ${dMinutes}m ${dSeconds}s`;
+}
+calcChirstmasDay();
+setInterval(calcChirstmasDay, 1000);
+```
