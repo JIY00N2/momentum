@@ -1,0 +1,32 @@
+#weather{
+    font-size: var(--font-weather-quote);
+    margin-left: var(--margin-weather-quote);
+    margin-top: var(--margin-weather-quote);
+}
+.screen-header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;  /* 세로로 붙이기 */
+    padding:30px;
+}
+.clock, .date{
+    font-size: 60px;
+    font-weight: 500;
+}
+.date{
+    margin-top:var(--margin-top-bottom);
+}
+.clock{
+    margin: 25px 0px;
+}
+
+#quote{
+    position:absolute;
+    bottom:0px;
+    font-size: var(--font-weather-quote);
+    margin-bottom: var(--margin-weather-quote);
+}
+#quote span{
+    margin-left:10px;
+}

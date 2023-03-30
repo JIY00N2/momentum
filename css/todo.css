@@ -1,0 +1,38 @@
+#greeting{
+    font-size:30px;
+    font-weight:400;
+    margin: 30px 0px;
+}
+.div-greeting{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--white);
+}
+.todo-input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#todo-list{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:30px 0px;
+}
+li{
+    margin: 10px 0px;
+    font-size:30px;
+}
+li > span{
+    margin: 0px 10px;
+}
+button{
+    border:none;
+    padding:0px;
+    background-color: var(--button-transparent);
+    height:var( --button-height);
+    font-size:20px;
+}

@@ -1,0 +1,23 @@
+.login{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=text], .login-form__pw{
+    width:30%;
+    height:30px;
+    font-size:15px;
+    padding:5px;
+    border-radius: 5px;
+    border: 2px solid var(--white);
+    margin: 0px 3px;
+}
+.login-form__pw{
+    width:60px;
+    height:var(--button-height);
+    background-color: var(--button-transparent);
+    color:var(--white);
+}
+input::placeholder {
+    text-align:center;
+  }

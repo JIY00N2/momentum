@@ -1,3 +1,19 @@
-.hidden {
-    display: none;
+
+
+
+@import "reset.css";
+@import "variable.css";
+
+@import "date_comment.css";
+@import "background.css";
+@import "login.css";
+@import "todo.css";
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color:var(--white);
+  }
+  
+.hidden{
+    display:none;
 }
