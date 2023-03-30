@@ -50,4 +50,12 @@ Challenges
 
 <img src="https://user-images.githubusercontent.com/109654823/228845550-58d464f6-5090-4563-8281-d0ff63b3fb40.png" width="45%">
 
+### 2023.03.30~2023.03.31
 
+Complete Version2 Momentum App
+1. CSS 개선
+2. 로그인하지 않았을 경우 todo list가 보이던 현상을 해결
+
+<img src="https://user-images.githubusercontent.com/109654823/228915999-faf35c42-4ff1-4df5-9ed3-74639a7fe117.gif">
+
+용량 관계로 2배속으로 진행하였다.
