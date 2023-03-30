@@ -96,3 +96,22 @@ document.body.appendChild(bgImage); // appendChild() - body에 html(img 태그)�
 ```
 
 ### 3. appendChild() - 마지막에 추가 / prependChild() - 앞에 추가
+
+### 2023.03.30 review
+
+```javascript
+const body = document.querySelector("body");
+const button = document.querySelector("button");
+
+function colorChanges(event) {
+  event.preventDefault();
+  const color1 = colors[Math.floor(Math.random() * colors.length)];
+  let color2 = colors[Math.floor(Math.random() * colors.length)];
+  if (color1 === color2) {
+    color2 = colors[Math.floor(Math.random() * colors.length)];
+  }
+  body.style.backgroundImage = `linear-gradient(0.25turn, ${color1}, ${color2})`;
+}
+
+button.addEventListener("click", colorChanges);
+```
