@@ -36,4 +36,9 @@ Challenges
 
 첫번째 pigma 작업
 
-<img src="https://user-images.githubusercontent.com/109654823/228817228-33cdc5c9-3f31-45b2-93cd-9352b2fd59e0.png" width ="50%">
+<img src="https://user-images.githubusercontent.com/109654823/228817228-33cdc5c9-3f31-45b2-93cd-9352b2fd59e0.png" width ="45%">
+
+수정
+
+<img src= "https://user-images.githubusercontent.com/109654823/228827148-58ab3210-ae53-4c80-b707-ab8a2a57d131.png" width="45%">
+
