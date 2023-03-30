@@ -28,6 +28,10 @@ Weather Section
 
 Complete Version1 Momentum App
 
+<img src="https://user-images.githubusercontent.com/109654823/228857171-2ab3265e-d553-43c0-b9be-36522ad0b6b5.pn" width="45%">
+
+처음 완성한 웹은 기능만 구현하였다.
+
 ### 2023.03.20 ~
 
 Challenges
