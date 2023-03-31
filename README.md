@@ -32,7 +32,7 @@ Complete Version1 Momentum App
 
 처음 완성한 웹은 기능만 구현하였다.
 
-### 2023.03.20 ~
+### 2023.03.20 ~ 2023.04.02
 
 Challenges
 
