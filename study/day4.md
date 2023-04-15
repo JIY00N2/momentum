@@ -93,3 +93,5 @@ title.addEventListener("mouseout", superEventHandler.out);
 window.addEventListener("resize", superEventHandler.resize);
 window.addEventListener("contextmenu", superEventHandler.rclick);
 ```
+
+과제 링크: https://codesandbox.io/s/day-three-blueprint-forked-5jbpts
