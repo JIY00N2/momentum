@@ -182,3 +182,5 @@ function paintResult(usernum, randomnum) {
 
 playButton.addEventListener("click", btnPlay);
 ```
+
+과제 링크: https://codesandbox.io/s/empty-blueprint-forked-gi1w2g
