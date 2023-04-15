@@ -104,3 +104,5 @@ function calcChirstmasDay() {
 calcChirstmasDay();
 setInterval(calcChirstmasDay, 1000);
 ```
+
+과제 링크: https://codesandbox.io/s/a08blueprint-forked-v15zfr
