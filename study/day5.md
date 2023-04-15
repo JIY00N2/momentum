@@ -54,3 +54,4 @@ function handleWindowSize() {
 }
 window.addEventListener("resize", handleWindowSize);
 ```
+과제 링크: https://codesandbox.io/s/empty-blueprint-forked-dr5fsv
