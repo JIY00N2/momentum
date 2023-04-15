@@ -1,7 +1,10 @@
 # Momenutm App
 ✔ 간단한 사이드 프로젝트로 Momentum App을 제작했다.<br>
 ✔ 노마드코더 바닐라JS의 영상을 참고하였다.<br>
-✔ Momentum v1 -> Momentum v2
+✔ 기술스택<br>
+
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=htmml5&logoColor=white"><img src="https://img.shields.io/badge/Css-1572B6?style=for-the-badge&logo=Css&logoColor=white"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
+
 
 ## Momentum v1
 ### 1. 핵심 기능
@@ -17,7 +20,6 @@
 ### 2. 제작 기간 & 참여 인원
 1. 제작 기간: 2023.03.06 ~ 2023.03.07<br>
 2. 참여 인원: 1명
-
 
 #### 2023.03.06
 
