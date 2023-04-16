@@ -78,7 +78,7 @@ Momentum v1 완성<br>
 2. 참여 인원: 1명
 
 ### 3. 배포 링크
-✔ 배포 링크: https://jiy00n2.github.io/momentum_app/
+✔ 배포 링크: https://jiy00n2.github.io/momentum-app/
 
 [배포하는 방법](https://velog.io/@jiyoon2/Publishing-on-Github-Pages-with-static-website)
 
